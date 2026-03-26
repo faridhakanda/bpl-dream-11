@@ -1,14 +1,18 @@
 
 import './App.css'
+import Banner from './components/banner'
+import Footer from './components/footer'
+import Header from './components/header'
+import Players from './components/players'
 
 function App() {
   
   return (
     <div>
-        <button className='btn btn-outline btn-primary'>Click Me</button>
-        <h2 className='text-2xl text-pink-500 text-center'>BPL Dream 11 Project!</h2>
-        <p className='text-lime-300 text-2xl p-4 border-red-500 border-1 m-4 rounded-md'>BPL Dream 11 project is ready to push github</p>
-    
+        <Header />
+        <Banner />
+        <Players />
+        <Footer />
     </div>
   )
 }
